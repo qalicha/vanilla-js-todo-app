@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.app-container{
+    width: 300px;
+    height: 300px;
+}
+h1{
+    text-align: center;
+}
+.input-btn{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    background-color: red;
+}
+.input-field{
+    width: 255px;
+}
+.add-btn{
+    background-color: green;
+    color: whitesmoke;
+}
+.list-container{
+    width: 300px;
+    height:100px ;
+}
+.todo-list{
+    width: 300px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.todo-list span{
+    margin-left: auto;
+}
+li{
+    list-style-type: none;
+}
+.update-btn{
+    background-color: blue;
+    color: white;
+}
+.delete-btn{
+    background-color:red;
+    color: white;
+}
+.cross-todo{
+    text-decoration: line-through;
+}
+
